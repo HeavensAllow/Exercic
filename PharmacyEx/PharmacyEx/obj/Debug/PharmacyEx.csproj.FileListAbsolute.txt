@@ -1,0 +1,11 @@
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\obj\Debug\PharmacyEx.csprojResolveAssemblyReference.cache
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\obj\Debug\PharmacyEx.csproj.CoreCompileInputs.cache
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\PharmacyEx.exe.config
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\PharmacyEx.exe
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\PharmacyEx.pdb
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\EntityFramework.dll
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\EntityFramework.xml
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\obj\Debug\PharmacyEx.exe
+C:\Users\andre.marinho\source\repos\PharmacyEx\PharmacyEx\obj\Debug\PharmacyEx.pdb

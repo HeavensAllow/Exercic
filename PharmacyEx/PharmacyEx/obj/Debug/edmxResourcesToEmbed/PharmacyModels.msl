@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ExFarmaciasModelStoreContainer" CdmEntityContainer="ExFarmaciasEntities">
+    <EntitySetMapping Name="Pharmacies">
+      <EntityTypeMapping TypeName="ExFarmaciasModel.Pharmacy">
+        <MappingFragment StoreEntitySet="Pharmacy">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="CreatePharmacy" FunctionName="ExFarmaciasModel.Store.CreatePharmacy" />
+    <FunctionImportMapping FunctionImportName="DeletePharmacy" FunctionName="ExFarmaciasModel.Store.DeletePharmacy" />
+    <FunctionImportMapping FunctionImportName="ListPharmacy" FunctionName="ExFarmaciasModel.Store.ListPharmacy">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="ExFarmaciasModel.ListPharmacy_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="CreatedOn" ColumnName="CreatedOn" />
+          <ScalarProperty Name="CreatedBy" ColumnName="CreatedBy" />
+          <ScalarProperty Name="UpdatedOn" ColumnName="UpdatedOn" />
+          <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="ReadPharmacy" FunctionName="ExFarmaciasModel.Store.ReadPharmacy" />
+    <FunctionImportMapping FunctionImportName="UpdatePharmacy" FunctionName="ExFarmaciasModel.Store.UpdatePharmacy" />
+  </EntityContainerMapping>
+</Mapping>
